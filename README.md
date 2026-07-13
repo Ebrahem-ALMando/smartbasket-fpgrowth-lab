@@ -40,13 +40,13 @@ tests/          Automated tests planned with the implementation
 
 ## Current Status
 
-**Planning and Initial Setup**
+**Environment Prepared and Dataset Research Completed — Awaiting Dataset Approval**
 
-اكتملت تهيئة الهيكل وخطة التنفيذ فقط. لم تُحدّد مجموعة البيانات النهائية بعد، ولا توجد نتائج تجارب أو دفاتر Jupyter منفذة.
+تم التحقق من Python 3.11.9 وإعداد البيئة المحلية `.venv` وتثبيت الاعتماديات وفحصها بنجاح. بُحثت خمسة خيارات جدية للبيانات، والتوصية الحالية هي UCI Online Retail، لكنها تنتظر موافقة المستخدم قبل التنزيل. لم يبدأ تحليل البيانات أو تنفيذ الخوارزميات، ولا توجد نتائج تجارب أو دفاتر Jupyter منفذة.
 
-## Future Environment Setup
+## Environment Setup
 
-سيتم التحقق في المرحلة التالية من إصدار Python المناسب، وإنشاء بيئة افتراضية محلية، ومراجعة توافق نطاقات الحزم الموجودة في `requirements.txt` قبل تثبيتها. ستُوثّق أوامر الإعداد بعد اختبارها على بيئة المشروع، لذلك لا يعرض هذا الملف حالياً أوامر تثبيت غير متحقق منها.
+توجد البيئة المعتمدة في `.venv` وتستخدم Python 3.11.9. يحتفظ `requirements.txt` بنطاقات الاعتماديات المقصودة، بينما يسجل `requirements-resolved.txt` الإصدارات الدقيقة التي اجتازت التحقق. توجد الأوامر المختبرة وتعليمات اختيار المفسر في `docs/notes/ENVIRONMENT_SETUP.md`.
 
 ## Reproducibility Principles
 
@@ -62,4 +62,4 @@ tests/          Automated tests planned with the implementation
 
 ## Data and Results Notice
 
-لم يتم اختيار أو تنزيل أي مجموعة بيانات حتى الآن، ولا توجد أي إحصاءات أو قواعد ارتباط أو نتائج تجريبية في المستودع.
+لم تُعتمد أو تُنزّل أي مجموعة بيانات حتى الآن، ولا توجد أي إحصاءات أو قواعد ارتباط أو نتائج تجريبية في المستودع. توجد مقارنة المرشحين والتوصيات في `docs/notes/DATASET_CANDIDATES.md`.
