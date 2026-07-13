@@ -1,0 +1,7 @@
+itemset_key,itemset_length,support_count,support
+Bread,1,5,0.8333333333333334
+Butter,1,4,0.6666666666666666
+Milk,1,5,0.8333333333333334
+Bread | Butter,2,3,0.5
+Bread | Milk,2,4,0.6666666666666666
+Butter | Milk,2,3,0.5

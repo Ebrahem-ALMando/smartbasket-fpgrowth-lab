@@ -1,0 +1,9 @@
+algorithm,run_type,run_index,status,transaction_count,product_count,minimum_support,minimum_support_count,maximum_length,frequent_itemset_count,runtime_seconds,rss_before_bytes,rss_after_bytes,approximate_rss_delta_bytes,memory_measurement
+FP-Growth,warmup,0,success,17901,3791,0.005,90,3,18681,20.830857299966738,193392640,371937280,178544640,approximate process RSS before/after; not peak memory
+Apriori,warmup,0,success,17901,3791,0.005,90,3,18681,26.107365400064737,372297728,222289920,-150007808,approximate process RSS before/after; not peak memory
+FP-Growth,measured,1,success,17901,3791,0.005,90,3,18681,20.276707599987276,223686656,361127936,137441280,approximate process RSS before/after; not peak memory
+Apriori,measured,1,success,17901,3791,0.005,90,3,18681,29.777156400028616,361373696,362553344,1179648,approximate process RSS before/after; not peak memory
+FP-Growth,measured,2,success,17901,3791,0.005,90,3,18681,21.283593499916606,361578496,369475584,7897088,approximate process RSS before/after; not peak memory
+Apriori,measured,2,success,17901,3791,0.005,90,3,18681,25.26851040008478,369786880,371179520,1392640,approximate process RSS before/after; not peak memory
+FP-Growth,measured,3,success,17901,3791,0.005,90,3,18681,19.58599170006346,369254400,386404352,17149952,approximate process RSS before/after; not peak memory
+Apriori,measured,3,success,17901,3791,0.005,90,3,18681,23.38089959998615,386662400,388894720,2232320,approximate process RSS before/after; not peak memory

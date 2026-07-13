@@ -8,7 +8,7 @@
 
 ## Overview
 
-مشروع جامعي لمقرر تنقيب البيانات (Data Mining) يهدف إلى بناء مختبر قابل لإعادة الإنتاج لتحليل سلة المشتريات (Market Basket Analysis). يشرح المشروع تعدين قواعد الارتباط (Association Rule Mining) وبنية شجرة FP-Tree، ثم يخطط لتطبيق FP-Growth على بيانات معاملات حقيقية ومقارنة النتائج مع Apriori ومع أداة WEKA. اكتملت مرحلة اقتناء البيانات وتدقيقها وتجهيز سلال المعاملات، ولم يبدأ تعدين الأنماط بعد.
+مشروع جامعي لمقرر تنقيب البيانات (Data Mining) يهدف إلى بناء مختبر قابل لإعادة الإنتاج لتحليل سلة المشتريات (Market Basket Analysis). يشرح المشروع تعدين قواعد الارتباط (Association Rule Mining) وبنية شجرة FP-Tree، ويطبق FP-Growth على بيانات معاملات حقيقية ويقارنه بعدالة مع Apriori. اكتمل التعدين الأساسي في Python، بينما تبقى اختبارات الاستقرار والأدوات التفاعلية وWEKA للمراحل اللاحقة.
 
 ## Main Objective
 
@@ -40,9 +40,9 @@ tests/          Automated tests planned with the implementation
 
 ## Current Status
 
-**Phase 3 Complete — Official Data Audited and Transaction Baskets Prepared**
+**Phase 4 Complete — FP-Growth Results and Apriori Comparison Validated**
 
-نُزلت مجموعة UCI Online Retail من المصدر الرسمي، وسُجل الترخيص والمصدر وبصمة SHA-256. اكتمل تدقيق 541,909 سطراً وخط التنظيف القابل لإعادة التشغيل وإعادة بناء المعاملات، وحُفظت مصفوفة السلة الثنائية بصيغة sparse. نُفذ الدفتران `01_project_introduction.ipynb` و`03_data_preparation.ipynb` من clean kernels بنجاح. لم تُنفذ FP-Growth أو Apriori، ولم تُولد قواعد ارتباط أو نتائج WEKA.
+اكتمل مثال FP-Tree التعليمي اليدوي بخطواته وHeader Table وConditional Pattern Bases. نُفذ FP-Growth على 17,901 سلة UK، وولدت Frequent Itemsets وAssociation Rules بعتبات موثقة. اكتملت مقارنة Apriori بالإعدادات نفسها ونجح فحص تكافؤ الأنماط. نُفذت Notebooks 02 و04 و05 من clean kernels. لم يبدأ Bootstrap rule-stability أو المختبر التفاعلي أو WEKA أو التقرير النهائي.
 
 ## Environment Setup
 
@@ -62,4 +62,4 @@ tests/          Automated tests planned with the implementation
 
 ## Data and Results Notice
 
-المصدر المعتمد هو UCI Online Retail بترخيص CC BY 4.0. توجد معلومات المصدر والنزاهة في `docs/references/ONLINE_RETAIL_SOURCE.md`، والخصائص المرصودة والقيود في `docs/references/ONLINE_RETAIL_DATASET_CARD.md`. الإحصاءات الحالية تخص جودة البيانات وتجهيزها فقط؛ لا توجد بعد نتائج تعدين أو قواعد ارتباط.
+المصدر المعتمد هو UCI Online Retail بترخيص CC BY 4.0. توجد معلومات المصدر والنزاهة في `docs/references/ONLINE_RETAIL_SOURCE.md`، والخصائص المرصودة في Dataset Card، وتصميم التعدين وقراراته في `docs/notes/MINING_EXPERIMENT_DESIGN.md` و`docs/notes/PHASE_4_DECISION_LOG.md`. نتائج القواعد وصفية وغير سببية، ولم تُختبر استقرارياً بعد.

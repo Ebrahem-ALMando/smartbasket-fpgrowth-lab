@@ -1,0 +1,6 @@
+target_item,prefix_path,path_count
+Butter,Bread | Milk,2
+Butter,Bread,1
+Butter,Milk,1
+Milk,Bread,4
+Bread,,0

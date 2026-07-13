@@ -1,0 +1,38 @@
+{
+  "algorithm": "mlxtend.frequent_patterns.fpgrowth",
+  "approximate_rss_after_bytes": 375455744,
+  "approximate_rss_before_bytes": 320569344,
+  "approximate_rss_delta_bytes": 54886400,
+  "association_rule_count": 63446,
+  "environment": {
+    "mlxtend": "0.25.0",
+    "pandas": "3.0.3",
+    "python": "3.11.9",
+    "scipy": "1.17.1"
+  },
+  "frequent_itemset_count": 18681,
+  "interpretation_minimum_lift": 1.2,
+  "itemset_length_distribution": {
+    "1": 1564,
+    "2": 9814,
+    "3": 7303
+  },
+  "maximum_itemset_length": 3,
+  "maximum_length_limitation": "Itemsets of length four or greater were not mined.",
+  "memory_measurement": "approximate process RSS before/after; not peak memory",
+  "minimum_confidence": 0.7,
+  "minimum_support": 0.005,
+  "minimum_support_count": 90,
+  "product_count": 3791,
+  "resource_safeguards": {
+    "maximum_itemsets": 100000,
+    "maximum_rss_delta_bytes": 2147483648,
+    "maximum_rules": 250000,
+    "maximum_runtime_seconds": 300.0
+  },
+  "runtime_seconds": 23.048461799975485,
+  "scope": "United Kingdom",
+  "selected_rule_count": 3423,
+  "threshold_selection": "Lowest successful sweep threshold with length-2 and length-3 itemsets, manageable rules, and runtime/memory below frozen soft safeguards.",
+  "transaction_count": 17901
+}

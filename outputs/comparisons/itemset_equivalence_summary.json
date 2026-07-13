@@ -1,0 +1,8 @@
+{
+  "absolute_tolerance": 1e-12,
+  "apriori_only_itemsets": 0,
+  "common_itemsets": 18681,
+  "equivalent": true,
+  "fpgrowth_only_itemsets": 0,
+  "maximum_support_difference": 0.0
+}

@@ -1,0 +1,7 @@
+transaction_id,items
+T1,Bread | Milk | Butter
+T2,Bread | Milk
+T3,Bread | Butter
+T4,Milk | Butter
+T5,Bread | Milk | Eggs
+T6,Bread | Milk | Butter | Coffee

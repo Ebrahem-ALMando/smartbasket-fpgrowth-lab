@@ -74,6 +74,17 @@ data/processed/*
 # Reproducible generated outputs; preserve directory markers
 outputs/figures/*
 !outputs/figures/.gitkeep
+!outputs/figures/manual_fp_tree_steps/
+!outputs/figures/manual_fp_tree_steps/*.png
+!outputs/figures/minimum_support_vs_frequent_itemsets.png
+!outputs/figures/minimum_support_vs_runtime.png
+!outputs/figures/frequent_itemsets_by_length.png
+!outputs/figures/top_frequent_itemsets_by_support.png
+!outputs/figures/association_rule_support_vs_confidence.png
+!outputs/figures/association_rule_lift_distribution.png
+!outputs/figures/fpgrowth_vs_apriori_runtime.png
+!outputs/figures/scalability_fpgrowth_vs_apriori.png
+!outputs/figures/itemset_equivalence_summary.png
 outputs/interactive/*
 !outputs/interactive/.gitkeep
 outputs/tables/*
@@ -91,8 +102,24 @@ outputs/tables/*
 !outputs/tables/scope_comparison.csv
 !outputs/tables/top_products_by_transaction_count.csv
 !outputs/tables/transaction_size_summary.csv
+!outputs/tables/manual_fp_tree_transactions.csv
+!outputs/tables/manual_fp_tree_item_frequencies.csv
+!outputs/tables/manual_fp_tree_header_table.csv
+!outputs/tables/manual_fp_tree_frequent_itemsets.csv
+!outputs/tables/manual_fp_tree_conditional_bases.csv
+!outputs/tables/fpgrowth_threshold_sweep.csv
+!outputs/tables/frequent_itemsets_length_summary.csv
+!outputs/tables/fpgrowth_run_metadata.json
+!outputs/tables/rule_metric_summary.csv
+!outputs/tables/rule_length_summary.csv
+!outputs/tables/top_rules_by_support.csv
+!outputs/tables/top_rules_by_confidence.csv
+!outputs/tables/top_rules_by_lift.csv
 outputs/comparisons/*
 !outputs/comparisons/.gitkeep
+!outputs/comparisons/fpgrowth_apriori_benchmark.csv
+!outputs/comparisons/itemset_equivalence_summary.json
+!outputs/comparisons/scalability_experiment.csv
 
 # Generated WEKA artifacts; keep notes and configuration documentation
 weka/datasets/*

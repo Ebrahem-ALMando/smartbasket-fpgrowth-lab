@@ -1,0 +1,6 @@
+item,support_count,is_frequent,global_order
+Bread,5,True,1
+Milk,5,True,2
+Butter,4,True,3
+Coffee,1,False,
+Eggs,1,False,

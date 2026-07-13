@@ -1,0 +1,8 @@
+minimum_support,minimum_support_count,frequent_itemset_count,length_1_count,length_2_count,length_3_count,maximum_observed_length,runtime_seconds,rss_before_bytes,rss_after_bytes,approximate_rss_delta_bytes,memory_measurement,rule_generation_attempted,rule_generation_status,rule_count_confidence_0_30,rule_count_confidence_0_50,rule_count_confidence_0_70,execution_status,stop_reason,maximum_length
+0.05,896,38,38,0,0,1,0.45359180006198585,192188416,191414272,-774144,approximate process RSS before/after; not peak memory,False,not_applicable,0,0,0,success,,3
+0.03,538,149,134,15,0,2,0.924895599950105,191635456,209461248,17825792,approximate process RSS before/after; not peak memory,True,success,28,17,5,success,,3
+0.02,359,414,303,106,5,3,1.5880186998983845,209833984,238649344,28815360,approximate process RSS before/after; not peak memory,True,success,203,77,17,success,,3
+0.015,269,800,485,262,53,3,2.4320781999267638,239177728,262094848,22917120,approximate process RSS before/after; not peak memory,True,success,568,247,54,success,,3
+0.01,180,2199,827,1041,331,3,4.49628289998509,263921664,298938368,35016704,approximate process RSS before/after; not peak memory,True,success,1999,991,322,success,,3
+0.0075,135,4969,1113,2700,1156,3,8.66326860000845,310398976,325521408,15122432,approximate process RSS before/after; not peak memory,True,success,5066,2587,848,success,,3
+0.005,90,18681,1564,9814,7303,3,17.463750199996866,355553280,376070144,20516864,approximate process RSS before/after; not peak memory,True,success,23417,12378,3468,success,,3

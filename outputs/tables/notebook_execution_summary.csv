@@ -1,3 +1,6 @@
 notebook,status,code_cell_count,executed_code_cell_count,error_count,duration_seconds,file_size_bytes,kernel,working_directory
 01_project_introduction.ipynb,success,0,0,0,5.848,9069,python3 (.venv),.
 03_data_preparation.ipynb,success,9,9,0,115.839,686767,python3 (.venv),.
+02_manual_fp_tree_example.ipynb,success,7,7,0,7.334,1589187,python3 (.venv),.
+04_fpgrowth_analysis.ipynb,success,8,8,0,89.48,2254102,python3 (.venv),.
+05_apriori_comparison.ipynb,success,6,6,0,327.065,448295,python3 (.venv),.
