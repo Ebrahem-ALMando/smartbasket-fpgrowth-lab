@@ -4,3 +4,6 @@ notebook,status,code_cell_count,executed_code_cell_count,error_count,duration_se
 02_manual_fp_tree_example.ipynb,success,7,7,0,7.334,1589187,python3 (.venv),.
 04_fpgrowth_analysis.ipynb,success,8,8,0,89.48,2254102,python3 (.venv),.
 05_apriori_comparison.ipynb,success,6,6,0,327.065,448295,python3 (.venv),.
+06_rule_quality_and_stability.ipynb,success,9,9,0,18.598,974192,python3 (.venv),.
+07_interactive_lab.ipynb,success,5,5,0,23.651,1371730,python3 (.venv),.
+09_business_insights.ipynb,success,7,7,0,6.359,1458549,python3 (.venv),.

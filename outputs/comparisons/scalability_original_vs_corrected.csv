@@ -1,0 +1,25 @@
+source,protocol,subset_fraction,algorithm,support_proportion,support_count,runtime_seconds,itemset_count,aggregation
+Phase 4 deterministic time prefix,A_fixed_support_proportion,0.25,FP-Growth,0.005,23,21.304710099939257,138140.0,single time-prefix run
+Phase 4 deterministic time prefix,A_fixed_support_proportion,0.25,Apriori,0.005,23,22.58990050002467,138140.0,single time-prefix run
+Phase 4 deterministic time prefix,A_fixed_support_proportion,0.5,FP-Growth,0.005,45,8.293898099916987,16451.0,single time-prefix run
+Phase 4 deterministic time prefix,A_fixed_support_proportion,0.5,Apriori,0.005,45,11.829421899979934,16451.0,single time-prefix run
+Phase 4 deterministic time prefix,A_fixed_support_proportion,0.75,FP-Growth,0.005,68,11.05793720006477,14477.0,single time-prefix run
+Phase 4 deterministic time prefix,A_fixed_support_proportion,0.75,Apriori,0.005,68,15.375255200080574,14477.0,single time-prefix run
+Phase 4 deterministic time prefix,A_fixed_support_proportion,1.0,FP-Growth,0.005,90,19.704219000064768,18681.0,single time-prefix run
+Phase 4 deterministic time prefix,A_fixed_support_proportion,1.0,Apriori,0.005,90,22.86403289996088,18681.0,single time-prefix run
+Phase 5 deterministic random subsets,A_fixed_support_proportion,0.25,Apriori,0.005,23,12.643482899991795,20480.0,median across seeds below 100%
+Phase 5 deterministic random subsets,A_fixed_support_proportion,0.25,FP-Growth,0.005,23,7.362619300023653,20480.0,median across seeds below 100%
+Phase 5 deterministic random subsets,A_fixed_support_proportion,0.5,Apriori,0.005,45,18.69754510000348,18825.0,median across seeds below 100%
+Phase 5 deterministic random subsets,A_fixed_support_proportion,0.5,FP-Growth,0.005,45,14.357820399920456,18825.0,median across seeds below 100%
+Phase 5 deterministic random subsets,A_fixed_support_proportion,0.75,Apriori,0.005,68,22.812870500027202,19211.0,median across seeds below 100%
+Phase 5 deterministic random subsets,A_fixed_support_proportion,0.75,FP-Growth,0.005,68,19.49352099990938,19211.0,median across seeds below 100%
+Phase 5 deterministic random subsets,A_fixed_support_proportion,1.0,Apriori,0.005,90,16.552387900068425,18681.0,median across seeds below 100%
+Phase 5 deterministic random subsets,A_fixed_support_proportion,1.0,FP-Growth,0.005,90,11.104805100010708,18681.0,median across seeds below 100%
+Phase 5 deterministic random subsets,B_fixed_absolute_support_count,0.25,Apriori,0.02011173184357542,90,0.6836611999897286,412.0,median across seeds below 100%
+Phase 5 deterministic random subsets,B_fixed_absolute_support_count,0.25,FP-Growth,0.02011173184357542,90,1.0024417999666184,412.0,median across seeds below 100%
+Phase 5 deterministic random subsets,B_fixed_absolute_support_count,0.5,Apriori,0.01005586592178771,90,3.408725199988112,2187.0,median across seeds below 100%
+Phase 5 deterministic random subsets,B_fixed_absolute_support_count,0.5,FP-Growth,0.01005586592178771,90,5.123304300010204,2187.0,median across seeds below 100%
+Phase 5 deterministic random subsets,B_fixed_absolute_support_count,0.75,Apriori,0.0067039106145251395,90,12.54262690001633,7415.0,median across seeds below 100%
+Phase 5 deterministic random subsets,B_fixed_absolute_support_count,0.75,FP-Growth,0.0067039106145251395,90,12.038405200000852,7415.0,median across seeds below 100%
+Phase 5 deterministic random subsets,B_fixed_absolute_support_count,1.0,Apriori,0.005027652086475616,90,22.032179299974814,18681.0,median across seeds below 100%
+Phase 5 deterministic random subsets,B_fixed_absolute_support_count,1.0,FP-Growth,0.005027652086475616,90,12.380433200043626,18681.0,median across seeds below 100%

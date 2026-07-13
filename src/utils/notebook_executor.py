@@ -22,6 +22,11 @@ PHASE_4_NOTEBOOKS = (
     project_path("notebooks", "04_fpgrowth_analysis.ipynb"),
     project_path("notebooks", "05_apriori_comparison.ipynb"),
 )
+PHASE_5_NOTEBOOKS = (
+    project_path("notebooks", "06_rule_quality_and_stability.ipynb"),
+    project_path("notebooks", "07_interactive_lab.ipynb"),
+    project_path("notebooks", "09_business_insights.ipynb"),
+)
 
 
 def _clear_execution_state(notebook: nbformat.NotebookNode) -> None:
@@ -96,5 +101,20 @@ def execute_phase4_notebooks() -> pd.DataFrame:
     return phase4
 
 
+def execute_phase5_notebooks() -> pd.DataFrame:
+    """Execute Phase 5 notebooks and append/upsert their evidence."""
+    records = [execute_notebook(path) for path in PHASE_5_NOTEBOOKS]
+    phase5 = pd.DataFrame.from_records(records)
+    summary_path = project_path("outputs", "tables", "notebook_execution_summary.csv")
+    if summary_path.exists():
+        existing = pd.read_csv(summary_path)
+        existing = existing.loc[~existing["notebook"].isin(phase5["notebook"])]
+        combined = pd.concat([existing, phase5], ignore_index=True)
+    else:
+        combined = phase5
+    save_csv(combined, summary_path)
+    return phase5
+
+
 if __name__ == "__main__":
-    print(execute_phase4_notebooks().to_string(index=False))
+    print(execute_phase5_notebooks().to_string(index=False))

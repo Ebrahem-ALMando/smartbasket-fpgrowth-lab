@@ -1,0 +1,4 @@
+preset,minimum_support,minimum_confidence,minimum_lift,stability_category,evidence_tier,maximum_antecedent_length,maximum_rules
+Evidence focused,0.0075,0.8,2.0,Very stable,Tier A,2,50
+Balanced review,0.005,0.7,1.2,All,Tier A,2,100
+Stability audit,0.005,0.7,1.2,Weakly stable,All,2,100

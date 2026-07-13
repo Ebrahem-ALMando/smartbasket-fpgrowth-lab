@@ -1,0 +1,11 @@
+flag,rule_count,rule_percentage
+high_lift_low_count,2082,60.82383873794917
+near_support_floor,1975,57.6979257960853
+common_consequent,646,18.872334209757522
+weak_bootstrap_stability,311,9.085597429155712
+reciprocal_rule_exists,54,1.5775635407537247
+insufficient_business_evidence,3,0.0876424189307625
+equivalent_normalized_code,0,0.0
+high_confidence_weak_lift,0,0.0
+wide_confidence_interval,0,0.0
+wide_lift_interval,0,0.0

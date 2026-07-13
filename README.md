@@ -8,7 +8,7 @@
 
 ## Overview
 
-مشروع جامعي لمقرر تنقيب البيانات (Data Mining) يهدف إلى بناء مختبر قابل لإعادة الإنتاج لتحليل سلة المشتريات (Market Basket Analysis). يشرح المشروع تعدين قواعد الارتباط (Association Rule Mining) وبنية شجرة FP-Tree، ويطبق FP-Growth على بيانات معاملات حقيقية ويقارنه بعدالة مع Apriori. اكتمل التعدين الأساسي في Python، بينما تبقى اختبارات الاستقرار والأدوات التفاعلية وWEKA للمراحل اللاحقة.
+مشروع جامعي لمقرر تنقيب البيانات (Data Mining) يهدف إلى بناء مختبر قابل لإعادة الإنتاج لتحليل سلة المشتريات (Market Basket Analysis). يشرح المشروع FP-Tree ويطبق FP-Growth ويقارنه مع Apriori، ثم يدقق استقرار القواعد وجودتها ويقدم أدوات تفاعلية وتفسيرات أعمال حذرة. تبقى مقارنة WEKA والتقرير النهائي للمراحل اللاحقة.
 
 ## Main Objective
 
@@ -40,9 +40,9 @@ tests/          Automated tests planned with the implementation
 
 ## Current Status
 
-**Phase 4 Complete — FP-Growth Results and Apriori Comparison Validated**
+**Phase 5 Complete — Rule Stability, Interactive Lab, and Evidence Audit Ready**
 
-اكتمل مثال FP-Tree التعليمي اليدوي بخطواته وHeader Table وConditional Pattern Bases. نُفذ FP-Growth على 17,901 سلة UK، وولدت Frequent Itemsets وAssociation Rules بعتبات موثقة. اكتملت مقارنة Apriori بالإعدادات نفسها ونجح فحص تكافؤ الأنماط. نُفذت Notebooks 02 و04 و05 من clean kernels. لم يبدأ Bootstrap rule-stability أو المختبر التفاعلي أو WEKA أو التقرير النهائي.
+اكتمل Bootstrap rule-stability لـ20 resample، وتحليل القواعد المضللة وRedundancy وEvidence tiers. اكتملت Threshold Explorer وشبكة المنتجات المستقرة وRule-based Basket Recommendation Simulator، وولدت business action candidates قابلة للتتبع وتحتاج اختباراً تجارياً. نُفذت Notebooks 06 و07 و09 من clean kernels. لم تبدأ WEKA أو التقرير HTML/PDF النهائي، ولم تُثبت الإجراءات تجارياً.
 
 ## Environment Setup
 
@@ -62,4 +62,4 @@ tests/          Automated tests planned with the implementation
 
 ## Data and Results Notice
 
-المصدر المعتمد هو UCI Online Retail بترخيص CC BY 4.0. توجد معلومات المصدر والنزاهة في `docs/references/ONLINE_RETAIL_SOURCE.md`، والخصائص المرصودة في Dataset Card، وتصميم التعدين وقراراته في `docs/notes/MINING_EXPERIMENT_DESIGN.md` و`docs/notes/PHASE_4_DECISION_LOG.md`. نتائج القواعد وصفية وغير سببية، ولم تُختبر استقرارياً بعد.
+المصدر المعتمد هو UCI Online Retail بترخيص CC BY 4.0. توجد تفاصيل Phase 5 في `docs/notes/PHASE_5_DECISION_LOG.md` ومنهج الاستقرار والمختبر والتفسير في الوثائق المرافقة. نتائج القواعد والأدوات وصفية وغير سببية، والإجراءات business candidates غير متحقق منها تجارياً.

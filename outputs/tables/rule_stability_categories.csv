@@ -1,0 +1,5 @@
+stability_category,rule_count,rule_percentage,category_definition
+Very stable,1911,55.828220858895705,presence rate >= 0.80
+Moderately stable,1201,35.08618171194858,0.50 <= presence rate < 0.80
+Weakly stable,308,8.997955010224949,0.20 <= presence rate < 0.50
+Unstable,3,0.0876424189307625,presence rate < 0.20

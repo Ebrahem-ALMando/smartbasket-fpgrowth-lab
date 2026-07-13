@@ -1,0 +1,10 @@
+metric,value
+node_count,40.0
+directed_edge_count,60.0
+weakly_connected_components,14.0
+largest_component_nodes,6.0
+maximum_nodes_filter,40.0
+maximum_edges_filter,60.0
+minimum_presence_rate,0.8
+minimum_confidence,0.7
+minimum_lift,1.2
