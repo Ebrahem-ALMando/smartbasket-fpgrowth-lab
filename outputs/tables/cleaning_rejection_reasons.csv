@@ -1,0 +1,8 @@
+reason,explanation,all_flagged_record_count,primary_sequential_record_count,percentage_of_raw_records_primary,percentage_of_rejected_records_primary
+missing_invoice,Missing invoice identifier,0,0,0.0,0.0
+cancelled_invoice,Cancelled invoice,9288,9288,1.7139409015166756,47.7237693967732
+invalid_quantity,Missing or non-positive quantity,10624,1336,0.24653585749636933,6.864659336142226
+invalid_price,Missing or non-positive unit price,2517,1181,0.21793326923893125,6.068235535916145
+missing_description,Missing product description,1454,0,0.0,0.0
+non_product_line,Observed administrative or non-product code,3044,2436,0.44952196771044584,12.516699208714419
+duplicate_full_row,Exact duplicate beyond first occurrence,5268,5221,0.9634458922069942,26.826636522454013

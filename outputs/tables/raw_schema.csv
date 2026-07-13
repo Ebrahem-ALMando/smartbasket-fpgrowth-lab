@@ -1,0 +1,9 @@
+column_name,dtype,non_null_count,missing_count,missing_percentage,unique_non_null,memory_bytes
+InvoiceNo,string,541909,0,0.0,25900,34149558
+StockCode,string,541909,0,0.0,4070,33645420
+Description,string,540455,1454,0.2683107311375157,4223,45299523
+Quantity,int64,541909,0,0.0,722,4335272
+InvoiceDate,datetime64[us],541909,0,0.0,23260,4335272
+UnitPrice,float64,541909,0,0.0,1630,4335272
+CustomerID,string,406829,135080,24.926694334288598,4372,33868518
+Country,string,541909,0,0.0,38,38137498

@@ -1,0 +1,8 @@
+step_name,input_record_count,removed_or_separated_count,output_record_count,percentage_affected,reason,policy_reference
+missing_invoice,541909,0,541909,0.0,Missing invoice identifier,DATA_CLEANING_POLICY.md — Missing invoice identifiers
+cancelled_invoice,541909,9288,532621,1.7139409015166756,Cancelled invoice,DATA_CLEANING_POLICY.md — Cancelled invoices
+invalid_quantity,532621,1336,531285,0.25083502152562515,Missing or non-positive quantity,DATA_CLEANING_POLICY.md — Invalid quantities
+invalid_price,531285,1181,530104,0.22229123728319072,Missing or non-positive unit price,DATA_CLEANING_POLICY.md — Invalid prices
+missing_description,530104,0,530104,0.0,Missing product description,DATA_CLEANING_POLICY.md — Missing product descriptions
+non_product_line,530104,2436,527668,0.45953246910040296,Observed administrative or non-product code,DATA_CLEANING_POLICY.md — Administrative lines
+duplicate_full_row,527668,5221,522447,0.9894479104285271,Exact duplicate beyond first occurrence,DATA_CLEANING_POLICY.md — Duplicate records

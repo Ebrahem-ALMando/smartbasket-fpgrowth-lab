@@ -57,10 +57,13 @@ dist/
 *.tmp
 *.temp
 
-# Raw and generated data; preserve directory markers and documentation
-data/raw/*
+# Raw and generated data; preserve directory markers and provenance metadata
+data/raw/**
 !data/raw/.gitkeep
-!data/raw/*.md
+!data/raw/**/
+!data/raw/**/.gitkeep
+!data/raw/**/*.md
+!data/raw/**/source_metadata.json
 data/interim/*
 !data/interim/.gitkeep
 !data/interim/*.md
@@ -75,6 +78,19 @@ outputs/interactive/*
 !outputs/interactive/.gitkeep
 outputs/tables/*
 !outputs/tables/.gitkeep
+!outputs/tables/administrative_candidates.csv
+!outputs/tables/administrative_lines_classified.csv
+!outputs/tables/cleaning_rejection_reasons.csv
+!outputs/tables/country_summary.csv
+!outputs/tables/data_cleaning_lineage.csv
+!outputs/tables/notebook_execution_summary.csv
+!outputs/tables/processed_dataset_summary.csv
+!outputs/tables/raw_missing_values.csv
+!outputs/tables/raw_quality_summary.csv
+!outputs/tables/raw_schema.csv
+!outputs/tables/scope_comparison.csv
+!outputs/tables/top_products_by_transaction_count.csv
+!outputs/tables/transaction_size_summary.csv
 outputs/comparisons/*
 !outputs/comparisons/.gitkeep
 

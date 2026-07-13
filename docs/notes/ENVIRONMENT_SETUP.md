@@ -123,3 +123,7 @@ python -c "import sys; print(sys.executable)"
 7. أعد اختيار `.venv\Scripts\python.exe` في VS Code.
 
 لا ينبغي نسخ `.venv` بين أجهزة أو إضافتها إلى Git؛ الملف `.gitignore` يستبعدها بالفعل.
+
+## تحديث اعتماديات Phase 3
+
+أضيف `pytest>=8,<10` إلى `requirements.txt` بوصفه اعتمادية تطوير خفيفة ومباشرة لتشغيل اختبارات خط تجهيز البيانات. ثُبت الإصدار المحلول 9.1.1 داخل `.venv` فقط، ثم أُعيد توليد `requirements-resolved.txt` ونجح `pip check`. لم تُضف اعتمادية بيانات كبيرة.

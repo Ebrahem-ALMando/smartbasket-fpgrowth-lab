@@ -1,0 +1,25 @@
+metric,value,notes
+raw_rows,541909,
+raw_columns,8,
+raw_memory_bytes,198106465,
+duplicate_full_rows,10147,All rows participating in a duplicate group.
+duplicate_rows_beyond_first,5268,Rows removable when retaining the first exact row.
+unique_invoices,25900,
+unique_stock_codes,4070,
+unique_descriptions,4223,
+unique_customers,4372,
+unique_countries,38,
+first_invoice_date,2010-12-01 08:26:00,
+last_invoice_date,2011-12-09 12:50:00,
+cancelled_line_items,9288,"InvoiceNo begins with C, case-insensitive."
+cancelled_invoices,3836,
+negative_quantity_records,10624,
+zero_quantity_records,0,
+invalid_quantity_records,10624,Quantity is missing or non-positive.
+non_cancelled_negative_quantity_records,1336,
+negative_price_records,2,
+zero_price_records,2515,
+invalid_price_records,2517,UnitPrice is missing or non-positive.
+missing_invoice_records,0,
+missing_description_records,1454,
+missing_customer_records,135080,

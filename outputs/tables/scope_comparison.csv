@@ -1,0 +1,3 @@
+scope,transaction_count,unique_products,median_basket_size,mean_basket_size,first_invoice_date,last_invoice_date,transaction_share_percentage,expected_basket_matrix_width,interpretability_implication
+All countries,19773,3797,15.0,26.156728872705205,2010-12-01 08:26:00,2011-12-09 12:50:00,100.0,3797,Multiple national markets and possible assortment differences.
+United Kingdom,17901,3791,15.0,26.458633595888497,2010-12-01 08:26:00,2011-12-09 12:49:00,90.53254437869822,3791,Single dominant market context with more consistent assortment.

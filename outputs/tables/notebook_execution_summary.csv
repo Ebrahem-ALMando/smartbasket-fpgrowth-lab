@@ -1,0 +1,3 @@
+notebook,status,code_cell_count,executed_code_cell_count,error_count,duration_seconds,file_size_bytes,kernel,working_directory
+01_project_introduction.ipynb,success,0,0,0,5.848,9069,python3 (.venv),.
+03_data_preparation.ipynb,success,9,9,0,115.839,686767,python3 (.venv),.

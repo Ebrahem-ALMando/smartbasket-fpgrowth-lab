@@ -1,0 +1,19 @@
+metric,value
+workbook_sheet_names,Online Retail
+raw_line_items,541909
+valid_line_items,522447
+rejected_or_separated_line_items,19462
+valid_transactions_all_countries,19773
+unique_products_all_countries,3797
+core_scope,United Kingdom
+core_transactions,17901
+core_unique_products,3791
+basket_matrix_rows,17901
+basket_matrix_columns,3791
+basket_matrix_nonzero_entries,473636
+basket_matrix_density,0.006979328302793062
+customer_conflict_transactions,0
+country_conflict_transactions,0
+raw_duplicate_rows_beyond_first,5268
+administrative_stock_codes_policy_count,17
+raw_workbook_sha256,43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d

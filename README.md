@@ -8,7 +8,7 @@
 
 ## Overview
 
-مشروع جامعي لمقرر تنقيب البيانات (Data Mining) يهدف إلى بناء مختبر قابل لإعادة الإنتاج لتحليل سلة المشتريات (Market Basket Analysis). يشرح المشروع تعدين قواعد الارتباط (Association Rule Mining) وبنية شجرة FP-Tree، ثم يخطط لتطبيق FP-Growth على بيانات معاملات حقيقية ومقارنة النتائج مع Apriori ومع أداة WEKA. المشروع حالياً في مرحلة التخطيط والتهيئة الأولية، ولا يتضمن نتائج تجريبية بعد.
+مشروع جامعي لمقرر تنقيب البيانات (Data Mining) يهدف إلى بناء مختبر قابل لإعادة الإنتاج لتحليل سلة المشتريات (Market Basket Analysis). يشرح المشروع تعدين قواعد الارتباط (Association Rule Mining) وبنية شجرة FP-Tree، ثم يخطط لتطبيق FP-Growth على بيانات معاملات حقيقية ومقارنة النتائج مع Apriori ومع أداة WEKA. اكتملت مرحلة اقتناء البيانات وتدقيقها وتجهيز سلال المعاملات، ولم يبدأ تعدين الأنماط بعد.
 
 ## Main Objective
 
@@ -40,9 +40,9 @@ tests/          Automated tests planned with the implementation
 
 ## Current Status
 
-**Environment Prepared and Dataset Research Completed — Awaiting Dataset Approval**
+**Phase 3 Complete — Official Data Audited and Transaction Baskets Prepared**
 
-تم التحقق من Python 3.11.9 وإعداد البيئة المحلية `.venv` وتثبيت الاعتماديات وفحصها بنجاح. بُحثت خمسة خيارات جدية للبيانات، والتوصية الحالية هي UCI Online Retail، لكنها تنتظر موافقة المستخدم قبل التنزيل. لم يبدأ تحليل البيانات أو تنفيذ الخوارزميات، ولا توجد نتائج تجارب أو دفاتر Jupyter منفذة.
+نُزلت مجموعة UCI Online Retail من المصدر الرسمي، وسُجل الترخيص والمصدر وبصمة SHA-256. اكتمل تدقيق 541,909 سطراً وخط التنظيف القابل لإعادة التشغيل وإعادة بناء المعاملات، وحُفظت مصفوفة السلة الثنائية بصيغة sparse. نُفذ الدفتران `01_project_introduction.ipynb` و`03_data_preparation.ipynb` من clean kernels بنجاح. لم تُنفذ FP-Growth أو Apriori، ولم تُولد قواعد ارتباط أو نتائج WEKA.
 
 ## Environment Setup
 
@@ -62,4 +62,4 @@ tests/          Automated tests planned with the implementation
 
 ## Data and Results Notice
 
-لم تُعتمد أو تُنزّل أي مجموعة بيانات حتى الآن، ولا توجد أي إحصاءات أو قواعد ارتباط أو نتائج تجريبية في المستودع. توجد مقارنة المرشحين والتوصيات في `docs/notes/DATASET_CANDIDATES.md`.
+المصدر المعتمد هو UCI Online Retail بترخيص CC BY 4.0. توجد معلومات المصدر والنزاهة في `docs/references/ONLINE_RETAIL_SOURCE.md`، والخصائص المرصودة والقيود في `docs/references/ONLINE_RETAIL_DATASET_CARD.md`. الإحصاءات الحالية تخص جودة البيانات وتجهيزها فقط؛ لا توجد بعد نتائج تعدين أو قواعد ارتباط.

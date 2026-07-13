@@ -1,0 +1,38 @@
+StockCodeNormalized,DescriptionNormalized,primary_rejection_reason,line_count
+POST,POSTAGE,non_product_line,1126
+DOT,DOTCOM POSTAGE,non_product_line,706
+M,MANUAL,non_product_line,322
+M,MANUAL,cancelled_invoice,244
+C2,CARRIAGE,non_product_line,141
+POST,POSTAGE,cancelled_invoice,126
+23444,NEXT DAY CARRIAGE,non_product_line,79
+D,DISCOUNT,cancelled_invoice,77
+S,SAMPLES,cancelled_invoice,61
+AMAZONFEE,AMAZON FEE,cancelled_invoice,32
+BANK CHARGES,BANK CHARGES,cancelled_invoice,25
+CRUK,CRUK COMMISSION,cancelled_invoice,16
+23574,PACKING CHARGE,non_product_line,14
+BANK CHARGES,BANK CHARGES,non_product_line,12
+GIFT_0001_20,DOTCOMGIFTSHOP GIFT VOUCHER £20.00,non_product_line,9
+GIFT_0001_10,DOTCOMGIFTSHOP GIFT VOUCHER £10.00,non_product_line,8
+GIFT_0001_30,DOTCOMGIFTSHOP GIFT VOUCHER £30.00,non_product_line,7
+M,MANUAL,invalid_price,6
+GIFT_0001_50,DOTCOMGIFTSHOP GIFT VOUCHER £50.00,non_product_line,4
+POST,,invalid_price,4
+GIFT_0001_40,DOTCOMGIFTSHOP GIFT VOUCHER £40.00,non_product_line,3
+23574,PACKING CHARGE,cancelled_invoice,2
+AMAZONFEE,AMAZON FEE,non_product_line,2
+B,ADJUST BAD DEBT,invalid_price,2
+C2,CARRIAGE,cancelled_invoice,2
+DOT,DOTCOM POSTAGE,invalid_price,2
+S,SAMPLES,non_product_line,2
+23444,NEXT DAY CARRIAGE,cancelled_invoice,1
+23444,,invalid_price,1
+23574,,invalid_price,1
+B,ADJUST BAD DEBT,non_product_line,1
+C2,,invalid_price,1
+DOT,DOTCOM POSTAGE,cancelled_invoice,1
+DOT,,invalid_price,1
+GIFT_0001_10,,invalid_price,1
+GIFT_0001_20,TO PUSH ORDER THROUGHA S STOCK WAS,invalid_price,1
+GIFT_0001_30,,invalid_price,1
