@@ -1,0 +1,93 @@
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter state and temporary exports
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.nbconvert.html
+*.nbconvert_files/
+.~*.ipynb
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Type-checking and lint caches
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Raw and generated data; preserve directory markers and documentation
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/*.md
+data/interim/*
+!data/interim/.gitkeep
+!data/interim/*.md
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/*.md
+
+# Reproducible generated outputs; preserve directory markers
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/interactive/*
+!outputs/interactive/.gitkeep
+outputs/tables/*
+!outputs/tables/.gitkeep
+outputs/comparisons/*
+!outputs/comparisons/.gitkeep
+
+# Generated WEKA artifacts; keep notes and configuration documentation
+weka/datasets/*
+!weka/datasets/.gitkeep
+!weka/datasets/*.md
+!weka/datasets/*.txt
+weka/results/*
+!weka/results/.gitkeep
+!weka/results/*.md
+!weka/results/*.txt
+weka/screenshots/*
+!weka/screenshots/.gitkeep
+!weka/screenshots/*.md
+!weka/screenshots/*.txt
