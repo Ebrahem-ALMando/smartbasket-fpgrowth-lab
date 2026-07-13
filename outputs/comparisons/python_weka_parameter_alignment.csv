@@ -1,0 +1,13 @@
+concept,python_value,weka_option,weka_value,alignment_status
+dataset scope,United Kingdom,-t,full sparse ARFF,aligned
+binary positive value,True/present,-P,2,aligned
+maximum itemset/rule size,3,-I,3,aligned
+rule metric,Confidence,-T,Confidence,aligned
+minimum confidence,0.7,-C,0.7,aligned
+minimum support,0.005,-M,0.005,aligned
+upper support,no upper ceiling,-U,1.0,aligned
+find all qualifying rules,True,-S,True,aligned
+requested top-N,not used,-N,1000000,ignored_in_find_all_mode
+support delta,not used,-D,0.005,ignored_when_find_all_enabled
+Phase 5 lift threshold,not applied,none,not applied,aligned
+class attribute,none,none,none,aligned

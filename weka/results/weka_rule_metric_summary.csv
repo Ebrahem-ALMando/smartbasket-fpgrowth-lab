@@ -1,0 +1,2 @@
+weka_rule_count,mapping_valid_rules,mapping_failures,duplicate_rule_keys,minimum_support_count,maximum_support_count,minimum_confidence,maximum_confidence,metrics_available
+3468,3468,0,0,90,700,0.7,0.9736842105263158,"[""Confidence"",""Lift"",""Leverage"",""Conviction""]"

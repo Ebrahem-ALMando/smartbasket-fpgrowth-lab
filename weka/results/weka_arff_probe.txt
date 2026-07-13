@@ -1,0 +1,4 @@
+﻿instances=17901
+attributes=3791
+stored_values=473636
+binary_nominal_attributes=3791

@@ -1,0 +1,14 @@
+{
+  "weka_class": "weka.associations.FPGrowth",
+  "effective_options_array": ["-P","2","-I","3","-N","1000000","-T","0","-C","0.7","-D","0.005","-U","1.0","-M","0.005","-S"],
+  "positive_index": 2,
+  "sparse_positive_nominal_index_zero_based": 1,
+  "maximum_items": 3,
+  "requested_number_of_rules": 1000000,
+  "metric_type": "Confidence",
+  "minimum_metric": 0.7,
+  "upper_minimum_support": 1.0,
+  "lower_minimum_support": 0.005,
+  "support_delta": 0.005,
+  "find_all_rules": true
+}

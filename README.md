@@ -40,9 +40,9 @@ tests/          Automated tests planned with the implementation
 
 ## Current Status
 
-**Phase 5 Complete — Rule Stability, Interactive Lab, and Evidence Audit Ready**
+**Phase 6 Complete — Official WEKA Execution and Python–WEKA Audit Ready**
 
-اكتمل Bootstrap rule-stability لـ20 resample، وتحليل القواعد المضللة وRedundancy وEvidence tiers. اكتملت Threshold Explorer وشبكة المنتجات المستقرة وRule-based Basket Recommendation Simulator، وولدت business action candidates قابلة للتتبع وتحتاج اختباراً تجارياً. نُفذت Notebooks 06 و07 و09 من clean kernels. لم تبدأ WEKA أو التقرير HTML/PDF النهائي، ولم تُثبت الإجراءات تجارياً.
+اكتمل Bootstrap rule-stability وأدوات Phase 5، ثم جُهزت WEKA 3.8.7 الرسمية محلياً وصُدرت السلة البريطانية نفسها إلى sparse ARFF وتحقق WEKA من أبعادها وقيم الحضور. نُفذ FPGrowth عبر Java API bridge والـCLI الرسمي، واكتمل تدقيق 3,468 قاعدة core-aligned: تطابقت هوية القواعد بالكامل، وتوافقت Support وConfidence وLift ضمن دقة عددية وتطابقت Leverage، بينما اختلفت Conviction بسبب صيغة WEKA الملساء الموثقة. نُفذ Notebook 08 من clean kernel. بقي التقاط screenshots للـExplorer خطوة عرض يدوية، ولم يبدأ التقرير HTML/PDF النهائي أو Phase 7.
 
 ## Environment Setup
 

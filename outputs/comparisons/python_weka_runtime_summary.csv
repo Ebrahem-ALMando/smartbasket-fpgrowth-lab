@@ -1,0 +1,3 @@
+implementation,measured_runs,median_loading_seconds,median_mining_seconds,median_end_to_end_seconds,median_startup_seconds,maximum_approximate_memory_bytes
+Python,3,0.9207261999836192,16.144838000065647,17.452941700001247,0.0,310124544
+WEKA,3,0.374842,12.5175777,13.533138700062407,0.2303519000624092,155441640

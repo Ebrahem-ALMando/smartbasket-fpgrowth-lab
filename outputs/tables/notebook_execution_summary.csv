@@ -7,3 +7,4 @@ notebook,status,code_cell_count,executed_code_cell_count,error_count,duration_se
 06_rule_quality_and_stability.ipynb,success,9,9,0,18.598,974192,python3 (.venv),.
 07_interactive_lab.ipynb,success,5,5,0,23.651,1371730,python3 (.venv),.
 09_business_insights.ipynb,success,7,7,0,6.359,1458549,python3 (.venv),.
+08_weka_comparison.ipynb,success,9,9,0,6.3,729880,python3 (.venv),.

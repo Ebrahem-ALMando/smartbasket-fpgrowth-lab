@@ -27,6 +27,9 @@ PHASE_5_NOTEBOOKS = (
     project_path("notebooks", "07_interactive_lab.ipynb"),
     project_path("notebooks", "09_business_insights.ipynb"),
 )
+PHASE_6_NOTEBOOKS = (
+    project_path("notebooks", "08_weka_comparison.ipynb"),
+)
 
 
 def _clear_execution_state(notebook: nbformat.NotebookNode) -> None:
@@ -116,5 +119,20 @@ def execute_phase5_notebooks() -> pd.DataFrame:
     return phase5
 
 
+def execute_phase6_notebooks() -> pd.DataFrame:
+    """Execute Notebook 08 and append/upsert its clean-kernel evidence."""
+    records = [execute_notebook(path) for path in PHASE_6_NOTEBOOKS]
+    phase6 = pd.DataFrame.from_records(records)
+    summary_path = project_path("outputs", "tables", "notebook_execution_summary.csv")
+    if summary_path.exists():
+        existing = pd.read_csv(summary_path)
+        existing = existing.loc[~existing["notebook"].isin(phase6["notebook"])]
+        combined = pd.concat([existing, phase6], ignore_index=True)
+    else:
+        combined = phase6
+    save_csv(combined, summary_path)
+    return phase6
+
+
 if __name__ == "__main__":
-    print(execute_phase5_notebooks().to_string(index=False))
+    print(execute_phase6_notebooks().to_string(index=False))

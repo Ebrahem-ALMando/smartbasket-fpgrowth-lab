@@ -1,0 +1,42 @@
+{
+  "status": "success",
+  "instances": 17901,
+  "attributes": 3791,
+  "presence_count": 473636,
+  "rule_count": 3468,
+  "loading_seconds": 0.5355961,
+  "mining_seconds": 18.906375,
+  "rule_export_seconds": 0.2726182,
+  "bridge_total_seconds": 19.806203,
+  "approximate_jvm_used_memory_bytes": 155441640,
+  "jvm_max_memory_bytes": 4294967296,
+  "java_vm_name": "OpenJDK 64-Bit Server VM",
+  "java_version": "25.0.2",
+  "java_vendor": "BellSoft",
+  "java_architecture": "amd64",
+  "runtime_arguments": [
+    "--add-opens=java.base/java.lang=ALL-UNNAMED",
+    "-Xmx4g",
+    "-DWEKA_HOME=D:\\University\\Data Mining\\smartbasket-fpgrowth-lab\\tools\\weka\\home"
+  ],
+  "label": "weka_measured_3",
+  "process_wall_seconds": 20.050305400043726,
+  "approximate_startup_seconds": 0.24410240004372596,
+  "exit_code": 0,
+  "exact_command": [
+    ".\\tools\\weka\\distribution\\jre\\jre-25.0.2-full\\bin\\java.exe",
+    "--add-opens=java.base/java.lang=ALL-UNNAMED",
+    "-Xmx4g",
+    "-DWEKA_HOME=.\\tools\\weka\\home",
+    "-cp",
+    ".\\weka\\java\\classes;.\\tools\\weka\\distribution\\weka.jar",
+    "WekaFPGrowthBridge",
+    ".\\weka\\datasets\\online_retail_uk_binary_sparse.arff",
+    ".\\tools\\weka\\runs_aligned_opens\\weka_measured_3_rules.csv",
+    ".\\tools\\weka\\runs_aligned_opens\\weka_measured_3_console.txt",
+    ".\\tools\\weka\\runs_aligned_opens\\weka_measured_3_metadata.json",
+    ".\\tools\\weka\\runs_aligned_opens\\weka_measured_3_options.json"
+  ],
+  "stdout_path": "weka/results/weka_bridge_stdout.txt",
+  "stderr_path": "weka/results/weka_bridge_stderr.txt"
+}

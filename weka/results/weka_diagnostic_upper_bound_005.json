@@ -1,0 +1,12 @@
+{
+  "purpose": "diagnostic of initially planned equal upper/lower support bounds",
+  "effective_upper_minimum_support": 0.005,
+  "effective_lower_minimum_support": 0.005,
+  "find_all_rules": true,
+  "rule_count": 137,
+  "unique_total_support_counts": [
+    90
+  ],
+  "conclusion": "upper=lower imposed an unintended support ceiling; final aligned upper bound is 1.0 because Python has no upper support ceiling",
+  "preserved_full_runs": "tools/weka/runs/weka_* (Git-ignored)"
+}

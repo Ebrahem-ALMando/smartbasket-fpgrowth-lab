@@ -1,0 +1,21 @@
+{
+  "relation": "online_retail_uk_binary",
+  "format": "WEKA sparse ARFF",
+  "encoding": "UTF-8",
+  "attribute_type": "nominal {0,1}",
+  "absent_value": "0 (first nominal value; omitted sparse default)",
+  "present_value": "1 (second nominal value; explicitly stored)",
+  "positive_value_index_weka": 2,
+  "instance_count": 17901,
+  "attribute_count": 3791,
+  "presence_count": 473636,
+  "file_size_bytes": 3310260,
+  "sha256": "f1fb8eda9c06c14720dcfbc3a81f8509eefc40ab9da956934fe2283a5c9378f7",
+  "product_order_checksum": "a7755438f8f26bd1b90bbecf284fe17bed10ff81236db292ce847f2cf1ed1fab",
+  "transaction_order_checksum": "9f7d9e4bef9a3adb6dd0aefa379c2efb0b560dab32b6ae81a4bab727bc549804",
+  "source_matrix": "data/processed/online_retail_basket_matrix.npz",
+  "source_columns": "data/processed/online_retail_basket_columns.json",
+  "source_transactions": "data/processed/online_retail_transaction_index.csv",
+  "product_mapping": "weka/datasets/product_attribute_mapping.csv",
+  "transaction_mapping": "weka/datasets/transaction_row_mapping.csv"
+}

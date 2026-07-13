@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "instance_count": 17901,
+  "attribute_count": 3791,
+  "presence_count": 473636,
+  "malformed_rows": 0,
+  "empty_rows": 0,
+  "non_binary_values": 0,
+  "sampled_rows_checked": 7,
+  "sampled_rows_matched": 7,
+  "sampled_attributes_checked": 7,
+  "sampled_attributes_matched": 7,
+  "product_order_checksum_match": true,
+  "transaction_order_checksum_match": true,
+  "validation_scope": "complete header/row/presence scan plus deterministic row and attribute samples",
+  "weka_load_passed": true,
+  "weka_probe": {
+    "instances": 17901,
+    "attributes": 3791,
+    "stored_values": 473636,
+    "binary_nominal_attributes": 3791
+  },
+  "weka_probe_class": "WekaArffProbe using WEKA 3.8.7 DataSource"
+}

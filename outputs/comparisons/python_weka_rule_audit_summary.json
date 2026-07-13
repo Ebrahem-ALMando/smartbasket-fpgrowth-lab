@@ -1,0 +1,69 @@
+{
+  "python_rule_count": 3468,
+  "weka_rule_count": 3468,
+  "common_rules": 3468,
+  "python_only_rules": 0,
+  "weka_only_rules": 0,
+  "exact_metric_matches": 0,
+  "tolerance_metric_matches": 0,
+  "metric_mismatches": 3468,
+  "rules_with_missing_metrics": 0,
+  "python_duplicate_rows": 0,
+  "weka_duplicate_rows": 0,
+  "mapping_failures": 0,
+  "tolerances": {
+    "support": {
+      "absolute": 1e-12,
+      "relative": 0.0
+    },
+    "confidence": {
+      "absolute": 1e-12,
+      "relative": 0.0
+    },
+    "lift": {
+      "absolute": 1e-12,
+      "relative": 0.0
+    },
+    "leverage": {
+      "absolute": 1e-12,
+      "relative": 0.0
+    },
+    "conviction": {
+      "absolute": 1e-10,
+      "relative": 1e-10
+    }
+  },
+  "support_exact_value_matches": 6,
+  "support_tolerance_value_matches": 3462,
+  "support_value_mismatches": 0,
+  "support_missing_value_matches": 0,
+  "maximum_support_absolute_difference": 9.974659986866641e-17,
+  "maximum_support_relative_difference": 1.8733231677848648e-14,
+  "confidence_exact_value_matches": 2903,
+  "confidence_tolerance_value_matches": 565,
+  "confidence_value_mismatches": 0,
+  "confidence_missing_value_matches": 0,
+  "maximum_confidence_absolute_difference": 3.3306690738754696e-16,
+  "maximum_confidence_relative_difference": 4.3766643202165257e-16,
+  "lift_exact_value_matches": 2989,
+  "lift_tolerance_value_matches": 479,
+  "lift_value_mismatches": 0,
+  "lift_missing_value_matches": 0,
+  "maximum_lift_absolute_difference": 4.263256414560601e-14,
+  "maximum_lift_relative_difference": 5.837761750104439e-16,
+  "leverage_exact_value_matches": 3468,
+  "leverage_tolerance_value_matches": 0,
+  "leverage_value_mismatches": 0,
+  "leverage_missing_value_matches": 0,
+  "maximum_leverage_absolute_difference": 0.0,
+  "maximum_leverage_relative_difference": 0.0,
+  "conviction_exact_value_matches": 0,
+  "conviction_tolerance_value_matches": 0,
+  "conviction_value_mismatches": 3468,
+  "conviction_missing_value_matches": 0,
+  "maximum_conviction_absolute_difference": 9.321685939333037,
+  "maximum_conviction_relative_difference": 0.2500000000000008,
+  "exact_metric_value_matches": 9366,
+  "tolerance_metric_value_matches": 4506,
+  "metric_value_mismatches": 3468
+}

@@ -1,0 +1,7 @@
+{
+  "weka_api_vs_weka_source_formula_max_abs_difference": 3.552713678800501e-15,
+  "python_metric_vs_unsmoothed_count_formula_max_abs_difference": 1.2789769243681803e-13,
+  "weka_source_formula": "premise_count * (N-consequence_count) / N / (premise_count-total_count+1)",
+  "python_mlxtend_formula": "(1-consequent_support)/(1-confidence), algebraically denominator premise_count-total_count",
+  "classification": "metric-definition difference"
+}

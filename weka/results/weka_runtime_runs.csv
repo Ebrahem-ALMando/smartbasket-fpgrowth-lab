@@ -1,0 +1,5 @@
+environment,implementation,run_kind,run_number,status,startup_seconds,loading_seconds,mining_seconds,export_seconds,end_to_end_seconds,approximate_memory_bytes,startup_included,loading_included,mining_included,rule_count
+BellSoft OpenJDK 25.0.2 / WEKA 3.8.7 / sparse ARFF,WEKA,warmup,0,success,0.1735863999679932,0.2932153,11.4584598,0.2956012,12.277469499967992,152966048,True,True,True,3468
+BellSoft OpenJDK 25.0.2 / WEKA 3.8.7 / sparse ARFF,WEKA,measured,1,success,0.16252130002118115,0.2960912,10.6405939,0.3672425,11.52368490002118,152588424,True,True,True,3468
+BellSoft OpenJDK 25.0.2 / WEKA 3.8.7 / sparse ARFF,WEKA,measured,2,success,0.23035190006240924,0.374842,12.5175777,0.3463571,13.533138700062409,155097824,True,True,True,3468
+BellSoft OpenJDK 25.0.2 / WEKA 3.8.7 / sparse ARFF,WEKA,measured,3,success,0.24410240004372596,0.5355961,18.906375,0.2726182,20.050305400043726,155441640,True,True,True,3468

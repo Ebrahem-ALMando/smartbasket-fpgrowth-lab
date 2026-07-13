@@ -1,0 +1,10 @@
+{
+  "java_executable": "tools/weka/distribution/jre/jre-25.0.2-full/bin/java.exe",
+  "javac_executable": "tools/weka/jdk/jdk-25.0.2/bin/javac.exe",
+  "java_version": "openjdk version \"25.0.2\" 2026-01-20 LTS",
+  "java_vendor": "BellSoft",
+  "java_architecture": "amd64",
+  "weka_version": "3.8.7",
+  "weka_jar": "tools/weka/distribution/weka.jar",
+  "weka_sha256": "621054b25a950e5c61c04e859d0ca5fad5bde55435a1a4633144389d44ec52d5"
+}

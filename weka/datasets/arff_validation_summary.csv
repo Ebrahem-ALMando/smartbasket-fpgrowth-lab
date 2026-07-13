@@ -1,0 +1,2 @@
+passed,instance_count,attribute_count,presence_count,malformed_rows,empty_rows,non_binary_values,sampled_rows_checked,sampled_rows_matched,sampled_attributes_checked,sampled_attributes_matched,product_order_checksum_match,transaction_order_checksum_match,validation_scope,weka_load_passed
+True,17901,3791,473636,0,0,0,7,7,7,7,True,True,complete header/row/presence scan plus deterministic row and attribute samples,True
